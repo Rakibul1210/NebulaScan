@@ -9,7 +9,6 @@ import speakeasy
 
 import nebula
 from constants import *
-# from nebula.models.ember import PEFeatureExtractor
 
 # from preprocessing.tokenization import JSONFilter
 from preprocessing.normalization import normalizeTableIP, normalizeTablePath
@@ -29,12 +28,6 @@ def is_pe_file(file_path):
     return False
 
 
-class PEStaticFeatureExtractor(object):
-    def __init__(self):
-        self.extractor = PEFeatureExtractor(print_feature_warning=False)
-        
-    def feature_vector(self, bytez):
-        return self.extractor.feature_vector(bytez)
 
 
 class PEDynamicFeatureExtractor(object):

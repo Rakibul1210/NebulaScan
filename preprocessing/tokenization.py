@@ -12,7 +12,7 @@ import sentencepiece as spm
 
 from constants import *
 
-class JSONTokenizerBPE():
+class JSONTokenizerBPE(object):
     def __init__(self,
                 vocab_size,
                 seq_len,
