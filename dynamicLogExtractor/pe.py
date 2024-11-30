@@ -8,12 +8,11 @@ import lief
 import speakeasy
 
 import nebula
-from nebula.constants import *
-from nebula.models.ember import PEFeatureExtractor
-from nebula.misc import get_alphanum_chars
+from constants import *
+# from nebula.models.ember import PEFeatureExtractor
 
-from .tokenization import JSONFilter
-from .normalization import normalizeTableIP, normalizeTablePath
+# from preprocessing.tokenization import JSONFilter
+from preprocessing.normalization import normalizeTableIP, normalizeTablePath
 
 
 def is_pe_file(file_path):

@@ -51,7 +51,7 @@ SPEAKEASY_RECORD_FIELDS = [
 
 SPEAKEASY_TOKEN_STOPWORDS = ['api_name', 'args', 'ret_val', 'event', 'path', 'open_flags', 'access_flags', 'size', 'server', 'proto', 'port', 'method']
 
-SPEAKEASY_CONFIG = r"C:\Users\dtrizna\Code\nebula\emulation\_speakeasyConfig.json"
+SPEAKEASY_CONFIG = r"dynamicLOGExtractor\speakeasy\_speakeasyConfig.json"
 
 SPEAKEASY_EXCEPTIONS = (PEFormatError, UcError, IndexError, errors.NotSupportedError, errors.SpeakeasyError)
 
