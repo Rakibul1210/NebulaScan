@@ -1,0 +1,437 @@
+{
+    "apis": [
+        {
+            "api_name": "KERNEL32.SetErrorMode",
+            "args": [
+                "0x8001"
+            ],
+            "ret_val": "0x0"
+        },
+        {
+            "api_name": "KERNEL32.GetVersion",
+            "args": [],
+            "ret_val": "0x1db10106"
+        },
+        {
+            "api_name": "KERNEL32.GetModuleHandleA",
+            "args": [
+                "KERNEL32"
+            ],
+            "ret_val": "0x77000000"
+        },
+        {
+            "api_name": "KERNEL32.GetProcAddress",
+            "args": [
+                "0x77000000",
+                "SetDefaultDllDirectories"
+            ],
+            "ret_val": "0xfeee0000"
+        },
+        {
+            "api_name": "kernel32.SetDefaultDllDirectories",
+            "args": [
+                "0xc00"
+            ],
+            "ret_val": "0x1"
+        },
+        {
+            "api_name": "KERNEL32.GetSystemDirectoryA",
+            "args": [
+                "C:\\Windows\\system32",
+                "0x104"
+            ],
+            "ret_val": "0x14"
+        },
+        {
+            "api_name": "USER32.wsprintfA",
+            "args": [
+                "\\UXTHEME.dll",
+                "%s%s.dll"
+            ],
+            "ret_val": "0xc"
+        },
+        {
+            "api_name": "KERNEL32.LoadLibraryExA",
+            "args": [
+                "C:\\Windows\\system32",
+                "0x0",
+                "LOAD_WITH_ALTERED_SEARCH_PATH"
+            ],
+            "ret_val": "0x0"
+        },
+        {
+            "api_name": "KERNEL32.lstrlenA",
+            "args": [
+                "UXTHEME"
+            ],
+            "ret_val": "0x7"
+        },
+        {
+            "api_name": "KERNEL32.GetSystemDirectoryA",
+            "args": [
+                "C:\\Windows\\system32",
+                "0x104"
+            ],
+            "ret_val": "0x14"
+        },
+        {
+            "api_name": "USER32.wsprintfA",
+            "args": [
+                "\\USERENV.dll",
+                "%s%s.dll"
+            ],
+            "ret_val": "0xc"
+        },
+        {
+            "api_name": "KERNEL32.LoadLibraryExA",
+            "args": [
+                "C:\\Windows\\system32",
+                "0x0",
+                "LOAD_WITH_ALTERED_SEARCH_PATH"
+            ],
+            "ret_val": "0x0"
+        },
+        {
+            "api_name": "KERNEL32.lstrlenA",
+            "args": [
+                "USERENV"
+            ],
+            "ret_val": "0x7"
+        },
+        {
+            "api_name": "KERNEL32.GetSystemDirectoryA",
+            "args": [
+                "C:\\Windows\\system32",
+                "0x104"
+            ],
+            "ret_val": "0x14"
+        },
+        {
+            "api_name": "USER32.wsprintfA",
+            "args": [
+                "\\SETUPAPI.dll",
+                "%s%s.dll"
+            ],
+            "ret_val": "0xd"
+        },
+        {
+            "api_name": "KERNEL32.LoadLibraryExA",
+            "args": [
+                "C:\\Windows\\system32",
+                "0x0",
+                "LOAD_WITH_ALTERED_SEARCH_PATH"
+            ],
+            "ret_val": "0x0"
+        },
+        {
+            "api_name": "KERNEL32.lstrlenA",
+            "args": [
+                "SETUPAPI"
+            ],
+            "ret_val": "0x8"
+        },
+        {
+            "api_name": "KERNEL32.GetSystemDirectoryA",
+            "args": [
+                "C:\\Windows\\system32",
+                "0x104"
+            ],
+            "ret_val": "0x14"
+        },
+        {
+            "api_name": "USER32.wsprintfA",
+            "args": [
+                "\\APPHELP.dll",
+                "%s%s.dll"
+            ],
+            "ret_val": "0xc"
+        },
+        {
+            "api_name": "KERNEL32.LoadLibraryExA",
+            "args": [
+                "C:\\Windows\\system32",
+                "0x0",
+                "LOAD_WITH_ALTERED_SEARCH_PATH"
+            ],
+            "ret_val": "0x0"
+        },
+        {
+            "api_name": "KERNEL32.lstrlenA",
+            "args": [
+                "APPHELP"
+            ],
+            "ret_val": "0x7"
+        },
+        {
+            "api_name": "KERNEL32.GetSystemDirectoryA",
+            "args": [
+                "C:\\Windows\\system32",
+                "0x104"
+            ],
+            "ret_val": "0x14"
+        },
+        {
+            "api_name": "USER32.wsprintfA",
+            "args": [
+                "\\PROPSYS.dll",
+                "%s%s.dll"
+            ],
+            "ret_val": "0xc"
+        },
+        {
+            "api_name": "KERNEL32.LoadLibraryExA",
+            "args": [
+                "C:\\Windows\\system32",
+                "0x0",
+                "LOAD_WITH_ALTERED_SEARCH_PATH"
+            ],
+            "ret_val": "0x0"
+        },
+        {
+            "api_name": "KERNEL32.lstrlenA",
+            "args": [
+                "PROPSYS"
+            ],
+            "ret_val": "0x7"
+        },
+        {
+            "api_name": "KERNEL32.GetSystemDirectoryA",
+            "args": [
+                "C:\\Windows\\system32",
+                "0x104"
+            ],
+            "ret_val": "0x14"
+        },
+        {
+            "api_name": "USER32.wsprintfA",
+            "args": [
+                "\\DWMAPI.dll",
+                "%s%s.dll"
+            ],
+            "ret_val": "0xb"
+        },
+        {
+            "api_name": "KERNEL32.LoadLibraryExA",
+            "args": [
+                "C:\\Windows\\system32",
+                "0x0",
+                "LOAD_WITH_ALTERED_SEARCH_PATH"
+            ],
+            "ret_val": "0x0"
+        },
+        {
+            "api_name": "KERNEL32.lstrlenA",
+            "args": [
+                "DWMAPI"
+            ],
+            "ret_val": "0x6"
+        },
+        {
+            "api_name": "KERNEL32.GetSystemDirectoryA",
+            "args": [
+                "C:\\Windows\\system32",
+                "0x104"
+            ],
+            "ret_val": "0x14"
+        },
+        {
+            "api_name": "USER32.wsprintfA",
+            "args": [
+                "\\CRYPTBASE.dll",
+                "%s%s.dll"
+            ],
+            "ret_val": "0xe"
+        },
+        {
+            "api_name": "KERNEL32.LoadLibraryExA",
+            "args": [
+                "C:\\Windows\\system32",
+                "0x0",
+                "LOAD_WITH_ALTERED_SEARCH_PATH"
+            ],
+            "ret_val": "0x0"
+        },
+        {
+            "api_name": "KERNEL32.lstrlenA",
+            "args": [
+                "CRYPTBASE"
+            ],
+            "ret_val": "0x9"
+        },
+        {
+            "api_name": "KERNEL32.GetSystemDirectoryA",
+            "args": [
+                "C:\\Windows\\system32",
+                "0x104"
+            ],
+            "ret_val": "0x14"
+        },
+        {
+            "api_name": "USER32.wsprintfA",
+            "args": [
+                "\\OLEACC.dll",
+                "%s%s.dll"
+            ],
+            "ret_val": "0xb"
+        },
+        {
+            "api_name": "KERNEL32.LoadLibraryExA",
+            "args": [
+                "C:\\Windows\\system32",
+                "0x0",
+                "LOAD_WITH_ALTERED_SEARCH_PATH"
+            ],
+            "ret_val": "0x0"
+        },
+        {
+            "api_name": "KERNEL32.lstrlenA",
+            "args": [
+                "OLEACC"
+            ],
+            "ret_val": "0x6"
+        },
+        {
+            "api_name": "KERNEL32.GetSystemDirectoryA",
+            "args": [
+                "C:\\Windows\\system32",
+                "0x104"
+            ],
+            "ret_val": "0x14"
+        },
+        {
+            "api_name": "USER32.wsprintfA",
+            "args": [
+                "\\CLBCATQ.dll",
+                "%s%s.dll"
+            ],
+            "ret_val": "0xc"
+        },
+        {
+            "api_name": "KERNEL32.LoadLibraryExA",
+            "args": [
+                "C:\\Windows\\system32",
+                "0x0",
+                "LOAD_WITH_ALTERED_SEARCH_PATH"
+            ],
+            "ret_val": "0x0"
+        },
+        {
+            "api_name": "KERNEL32.lstrlenA",
+            "args": [
+                "CLBCATQ"
+            ],
+            "ret_val": "0x7"
+        },
+        {
+            "api_name": "KERNEL32.GetSystemDirectoryA",
+            "args": [
+                "C:\\Windows\\system32",
+                "0x104"
+            ],
+            "ret_val": "0x14"
+        },
+        {
+            "api_name": "USER32.wsprintfA",
+            "args": [
+                "\\NTMARTA.dll",
+                "%s%s.dll"
+            ],
+            "ret_val": "0xc"
+        },
+        {
+            "api_name": "KERNEL32.LoadLibraryExA",
+            "args": [
+                "C:\\Windows\\system32",
+                "0x0",
+                "LOAD_WITH_ALTERED_SEARCH_PATH"
+            ],
+            "ret_val": "0x0"
+        },
+        {
+            "api_name": "KERNEL32.lstrlenA",
+            "args": [
+                "NTMARTA"
+            ],
+            "ret_val": "0x7"
+        },
+        {
+            "api_name": "KERNEL32.GetModuleHandleA",
+            "args": [
+                "VERSION"
+            ],
+            "ret_val": "0x0"
+        },
+        {
+            "api_name": "KERNEL32.GetSystemDirectoryA",
+            "args": [
+                "C:\\Windows\\system32",
+                "0x104"
+            ],
+            "ret_val": "0x14"
+        },
+        {
+            "api_name": "USER32.wsprintfA",
+            "args": [
+                "\\VERSION.dll",
+                "%s%s.dll"
+            ],
+            "ret_val": "0xc"
+        },
+        {
+            "api_name": "KERNEL32.LoadLibraryExA",
+            "args": [
+                "C:\\Windows\\system32",
+                "0x0",
+                "LOAD_WITH_ALTERED_SEARCH_PATH"
+            ],
+            "ret_val": "0x0"
+        },
+        {
+            "api_name": "KERNEL32.GetModuleHandleA",
+            "args": [
+                "SHFOLDER"
+            ],
+            "ret_val": "0x0"
+        },
+        {
+            "api_name": "KERNEL32.GetSystemDirectoryA",
+            "args": [
+                "C:\\Windows\\system32",
+                "0x104"
+            ],
+            "ret_val": "0x14"
+        },
+        {
+            "api_name": "USER32.wsprintfA",
+            "args": [
+                "\\SHFOLDER.dll",
+                "%s%s.dll"
+            ],
+            "ret_val": "0xd"
+        },
+        {
+            "api_name": "KERNEL32.LoadLibraryExA",
+            "args": [
+                "C:\\Windows\\system32",
+                "0x0",
+                "LOAD_WITH_ALTERED_SEARCH_PATH"
+            ],
+            "ret_val": "0x0"
+        },
+        {
+            "api_name": "KERNEL32.GetModuleHandleA",
+            "args": [
+                "SHLWAPI"
+            ],
+            "ret_val": "0x67000000"
+        },
+        {
+            "api_name": "KERNEL32.GetProcAddress",
+            "args": [
+                "0x67000000",
+                "0x1b5"
+            ],
+            "ret_val": "0xfeee0001"
+        }
+    ]
+}
